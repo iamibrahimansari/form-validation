@@ -1,0 +1,37 @@
+.header{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+form, .input{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    gap: 0.8rem;
+    .input{
+        gap: 0.5rem;
+        input{
+            padding: 0.5rem 1rem;
+            font-size: inherit;
+            border: none;
+            outline: none;
+            box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
+            border-radius: 5px;
+        }
+    }
+    .submit-btn{
+        text-align: center;
+        button{
+            padding: 1rem 2rem;
+            background-color: dodgerblue;
+            border: none;
+            color: #fff;
+            font-weight: 700;
+            cursor: pointer;
+        }
+    }
+}
+
+
